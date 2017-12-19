@@ -10,8 +10,8 @@ url: "http://www.sbingguo.com"
 
 # Comment
 comment:
-    disqus: snow-sakura
-    uyan: 2152051  # 有言id,登录有言官网申请
+    #disqus: snow-sakura
+    #uyan: 2152051  # 有言id,登录有言官网申请
 
 # Social
 social:

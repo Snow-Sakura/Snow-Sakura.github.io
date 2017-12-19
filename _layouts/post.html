@@ -35,7 +35,20 @@ var gitment = new Gitment({
 });
 gitment.render('gitmentContainer');
 </script> -->
-  
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'Snow-Sakura',
+    repo: 'Snow-Sakura.github.io',
+    oauth: {
+        client_id: 'ae18b8617c9aa7960a32',
+        client_secret: '76ae50d3bdf49667ee7eeba9779c054946dc2351',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
 
 {% include new-old.html %}
 {% include comments.html %}
